@@ -1,4 +1,7 @@
 @media(max-width:1156px) {
+    .header__top .container {
+        padding: 0;
+    }
     .services__items {
         display: block;
     }
@@ -21,7 +24,8 @@
         bottom: -100px;
     }
     .news__blog {
-        max-width: 100%;
+        margin: 0 auto;
+        max-width: 260px;
         display: block;
         margin-bottom: 30px;
     }
